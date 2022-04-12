@@ -1,0 +1,15 @@
+module.exports = {
+  countrySelect: "#country",
+  modelInput: "#model",
+  pickupInput: "#pickup",
+  dropoffInput: "#dropoff",
+  searchButton: "//button[contains(text(),'Search')]",
+  rentButtonInTable: "//td[contains(text(), '811 LCX')]/../td[6]//a",
+  rentButtonOnCarCard: "//a[contains(text(),'Rent!')]",
+  formVisibility: "Name (length < 50)",
+  formNameInput: "#name",
+  formLastNameInput: "#last_name",
+  formCardNumberInput: "#card_number",
+  formEmailInput: "#email",
+  rentButtonOnForm: "//button[contains(text(),'Rent')]",
+};
